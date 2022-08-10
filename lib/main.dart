@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_exercise/card_girdview.dart';
+import 'package:flutter_exercise/corousel_demo.dart';
+import 'package:flutter_exercise/expanded_demo.dart';
+import 'package:flutter_exercise/first_demo.dart';
+import 'package:flutter_exercise/home_screen.dart';
+import 'package:flutter_exercise/pageview_demo.dart';
+
+import 'home_screen2.dart';
 
 void main() {
-  runApp(const MyApp());
-}
+//  runApp(const MyFirst());
+  //runApp(const Second());
+ // runApp(const HomeScreen());
+  runApp(const HomeScreen());
+ }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -11,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -24,7 +35,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'It\'s Shunnah!'),
     );
   }
 }
@@ -113,3 +124,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
