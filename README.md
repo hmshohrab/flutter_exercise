@@ -1,6 +1,6 @@
 # flutter_exercise
 
-A new Flutter Exercise project.
+A new Flutter Excercise project.
 
 ## Getting Started
 

@@ -1,5 +1,5 @@
 name: flutter_exercise
-description: A new Flutter Exercise project.
+description: A new Flutter Excercise project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0-182.0.dev <3.0.0"
+  sdk: ">=2.17.6 <3.0.5"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   english_words: ^4.0.0
   carousel_slider: ^4.0.0
+  # add this line to your dependencies
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
   flutter_test:
@@ -47,7 +49,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,11 +60,16 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-   uses-material-design: true
+  uses-material-design: true
 
-     # To add assets to your application, add an assets section, like this:
-   assets:
-       - images/user_avatar.png
+    # To add assets to your application, add an assets section, like this:
+#    assets:
+#      - images/user_avatar.png
+#      - images/a_dot_ham.jpeg
+
+      # An image asset can refer to one or more resolution-specific "variants", see
+      # https://flutter.dev/assets-and-images/#resolution-aware
+      # To add assets to your application, add an assets section, like this:
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
