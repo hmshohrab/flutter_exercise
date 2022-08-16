@@ -1,8 +1,64 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/list_item.dart';
+
 void main() {
-  runApp(const MyFirstApp());
+  runApp(const ListViewPage());
+}
+
+class ListViewPage extends StatelessWidget {
+  const ListViewPage({Key? key}) : super(key: key);
+
+  void onPress() {
+    if (kDebugMode) {
+      print("OnPress clicked");
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Hello Flutter"),
+          backgroundColor: Colors.green,
+          centerTitle: true,
+          actions: [IconButton(onPressed: () {}, icon: Icon(Icons.delete))],
+        ),
+        body: ListView(
+          children: [
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: TextField(
+                decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: "Input your name",
+                    hintText: "Hello"),
+              ),
+            ),
+            RaisedButton(
+              onPressed: onPress,
+              child: const Text("Hello"),
+            ),
+            const Padding(padding: EdgeInsets.all(8.0)),
+            ElevatedButton(onPressed: onPress, child: const Text("World")),
+            const ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+            ListItem(),
+          ],
+        ),
+      ),
+    );
+  }
 }
 
 class MyFirstApp extends StatelessWidget {
