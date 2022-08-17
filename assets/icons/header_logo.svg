@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="305.535" viewBox="0 0 280 305.535">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_322" data-name="Rectangle 322" width="280" height="305.535" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_319" data-name="Rectangle 319" width="232.829" height="71.226" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_320" data-name="Rectangle 320" width="171.302" height="7.36" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_657" data-name="Group 657" transform="translate(-66 -60)">
+    <g id="Group_645" data-name="Group 645" transform="translate(66 60)">
+      <g id="Group_644" data-name="Group 644" clip-path="url(#clip-path)">
+        <g id="Group_643" data-name="Group 643">
+          <g id="Group_642" data-name="Group 642" clip-path="url(#clip-path)">
+            <path id="Path_416" data-name="Path 416" d="M229.06,245.319H24.106a10.347,10.347,0,0,1-10.255-11.728L39.557,42.6a10.349,10.349,0,0,1,10.255-8.967H254.766a10.347,10.347,0,0,1,10.255,11.728L239.316,236.352a10.348,10.348,0,0,1-10.255,8.967" transform="translate(13.51 33.036)" fill="#fff"/>
+            <path id="Path_417" data-name="Path 417" d="M229.06,245.319H24.106a10.347,10.347,0,0,1-10.255-11.728L39.557,42.6a10.349,10.349,0,0,1,10.255-8.967H254.766a10.347,10.347,0,0,1,10.255,11.728L239.316,236.352A10.348,10.348,0,0,1,229.06,245.319Z" transform="translate(13.51 33.036)" fill="none" stroke="#1cae81" stroke-miterlimit="10" stroke-width="1.386"/>
+            <path id="Path_418" data-name="Path 418" d="M216.06,107.372,8.513,133.347a7.8,7.8,0,0,1-7.73-8.84L8.268,6.761A7.8,7.8,0,0,1,16,0L225.737,36.145a7.8,7.8,0,0,1,7.687,9.137l-9.679,55.625a7.8,7.8,0,0,1-7.685,6.464" transform="translate(0.699)" fill="#cbdcd6"/>
+            <g id="Group_638" data-name="Group 638" transform="translate(22.11 35.781)" style="mix-blend-mode: multiply;isolation: isolate">
+              <g id="Group_637" data-name="Group 637">
+                <g id="Group_636" data-name="Group 636" clip-path="url(#clip-path-3)">
+                  <path id="Path_419" data-name="Path 419" d="M226.5,89.278H18.956a7.8,7.8,0,0,1-7.73-8.84l7.484-55.625a7.8,7.8,0,0,1,7.73-6.761H236.182a7.8,7.8,0,0,1,7.685,9.137l-9.679,55.625a7.8,7.8,0,0,1-7.685,6.464" transform="translate(-11.154 -18.052)" fill="#1cae81"/>
+                </g>
+              </g>
+            </g>
+            <g id="Group_641" data-name="Group 641" transform="translate(65.477 169.406)" style="mix-blend-mode: multiply;isolation: isolate">
+              <g id="Group_640" data-name="Group 640">
+                <g id="Group_639" data-name="Group 639" clip-path="url(#clip-path-4)">
+                  <path id="Path_420" data-name="Path 420" d="M200.655,92.828H36.713a3.68,3.68,0,0,1,0-7.359H200.655a3.68,3.68,0,1,1,0,7.359" transform="translate(-33.034 -85.468)" fill="#1cae81"/>
+                </g>
+              </g>
+            </g>
+            <path id="Path_421" data-name="Path 421" d="M14.664,92.636.856,195.219a15.817,15.817,0,0,0,15.676,17.928H91.7" transform="translate(0.699 90.977)" fill="none" stroke="#1cae81" stroke-miterlimit="10" stroke-width="1.425"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="JAMIBABA" transform="translate(192.395 143.106)" fill="#fff" font-size="32" font-family="Poppins-Black, Poppins" font-weight="800"><tspan x="-88.8" y="0">JAMIBABA</tspan></text>
+    <text id="LAND_SERVICE" data-name="LAND SERVICE" transform="translate(217.327 215.78)" font-size="22" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-75.306" y="0">LAND SERVICE</tspan></text>
+    <text id="All_land_problems_are_now_solved_in_JamiBaba_mobile_app" data-name="All land problems are
+now solved in JamiBaba
+mobile app" transform="translate(212 269)" fill="#9e9e9e" font-size="15" font-family="Poppins-Regular, Poppins"><tspan x="-79.927" y="0">All land problems are</tspan><tspan x="-91.957" y="23">now solved in </tspan><tspan y="23" fill="#1cae81" font-family="Poppins-Medium, Poppins" font-weight="500">JamiBaba</tspan><tspan x="-43.147" y="46">mobile app</tspan></text>
+  </g>
+</svg>

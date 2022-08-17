@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   english_words: ^4.0.0
   carousel_slider: ^4.0.0
+  flutter_svg: ^1.1.0
   # add this line to your dependencies
   fluttertoast: ^8.0.9
 
@@ -69,6 +70,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/icons/
 
       # An image asset can refer to one or more resolution-specific "variants", see
       # https://flutter.dev/assets-and-images/#resolution-aware
